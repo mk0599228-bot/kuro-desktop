@@ -1,0 +1,14 @@
+{
+  "name": "kuro-desktop",
+  "version": "1.0.0",
+  "description": "Kuro Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.0"
+  }
+}
