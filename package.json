@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Kuro Desktop App",
   "main": "main.js",
+  "author": "mk059228-bot",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --linux"
+    "build": "electron-builder --linux --publish never"
   },
   "devDependencies": {
     "electron": "^35.0.0",
